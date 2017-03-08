@@ -1,0 +1,150 @@
+{
+font-family: Cabin-Bold;
+src: url(fonts/Cabin-Bold.otf);
+}
+
+body{
+	font-family: "Cabin-Bold", sans-serif;
+	margin: auto;
+	background-color: #FF6D00;
+	font-size: 20px;
+	color: #00C1D9;
+}
+
+p{
+	
+	line-height: 30px;
+	font-size: 17px;
+}
+
+.justify{
+	text-align: justify;
+}
+
+a{
+color: #00C1D9;
+text-decoration:none;
+}
+
+a:hover{
+color: #00C1D9;
+text-decoration:underline;
+}
+
+a:visited{
+color: #00C1D9;
+}
+
+#survey{
+	
+	width: 700px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0px 0px 25px #000000;
+	border-radius:0px 0px 25px 25px;
+        
+}
+
+.prev{
+	position: absolute;
+	left: 10%;
+}
+
+.next{
+	position: absolute;
+	right: 10%;
+}
+
+.slidesjs-pagination{
+
+}
+
+#slide{
+	display:none;
+	
+}
+
+#survey_container {
+	width:100%;
+	height: 400px;
+	margin: auto;
+
+}
+
+#audiotest_container{
+	
+}
+	
+	.slide {
+height: 100%;
+		margin: auto;
+		display:block;
+overflow: show;
+	}
+	
+.surveyquestion{
+	width: 80%;
+
+	text-align: right;
+	margin:auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.surveyquestion b{
+        margin: auto;
+}
+
+
+.keyalignleft{
+	float:left;
+}
+
+
+
+.navigationbuttons{
+position: absolute;
+bottom: 20px;
+left: 0px;
+	width: 100%;
+height: 50px;
+	margin: auto;
+	display: table;
+}
+
+.navigationbuttons a{
+display: table-cell;
+text-align: center;
+width: 50%;
+vertical-align: middle;
+color: white;
+background-color: #00C1D9;
+}
+
+.questiondiv{
+height: 100%;
+}
+
+audio{
+display: table-cell;
+margin: auto;
+/**width: 48px;**/
+}
+
+.textfieldcenter{
+	margin: auto;
+	display: table;
+}
+
+#audioquestion{
+min-height: 60px;
+margin-top: 100px;
+}
+
+audio.trial{
+	display:none;
+}
+
+.surveyquestion#audioquestion{
+	text-align: center;
+}
