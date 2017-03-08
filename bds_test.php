@@ -47,7 +47,7 @@
 	// Default amount of trials
 	$defaultamountoftrials = 14;
 
-	$amountoftrials = $defaultamountoftrial;
+	$amountoftrials = $defaultamountoftrials;
 	
 	//creates all bds trials through iterating
 	for ($i = 0; $i <= $amountoftrials - 1; $i++) {
