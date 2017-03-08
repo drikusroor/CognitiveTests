@@ -17,7 +17,7 @@
     //$playbuttontexts = "Ses oynayın.";
 
     $playbuttontexts = array(
-        0 => "Ses oynayın",
+        0 => "Dinlemek i&#xE7;in t&#x131;klay&#x131;n",
         1 => "Next",
     );
 

@@ -72,7 +72,15 @@
 <div class="slide">
 	
 	<div class="surveyquestion" style="text-align: center;">
-		<b>This was the Mottier-Test</b>
+		<b>
+		<?php
+			if ($language == "Turkish") {
+				echo "Bu testi tamamlad&#x131;n&#x131;z";
+			} else {
+				echo "This was the Mottier-Test";
+			}
+		?>
+		</b>
 		<br>
 		<br>
 		<br>
@@ -80,7 +88,15 @@
 		<br>
 		
 		<!--<p>Kat&#305;l&#305;m&#305;n&#305;z i&ccedil;in te&#351;ekk&uuml;r ederiz!</p>-->
-		<p>Thank you for your participation!</p>
+		<p>
+		<?php
+			if ($language == "Turkish") {
+				echo "Kat&#x131;l&#x131;m&#x131;n&#x131;z i&#xE7;in te&#x15F;ekk&#xFC;rler!";
+			} else {
+				echo "Thank you for your participation!";
+			}
+		?>
+		</p>
 	</div> <!-- sluit de surveyquestion div af -->
 	
 	<div class="navigationbuttons">
