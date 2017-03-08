@@ -45,7 +45,8 @@
 	$amountoftrials = count($mottiertrialfilenames);
 	
 	// For testing
-	$amountoftrials = 36;
+	$defaultamountoftrials = 36;
+	$amountoftrials = $defaultamountoftrials;
 	
 	// Echo't alle filenames, maar uitgecommented
 
